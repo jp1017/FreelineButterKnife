@@ -15,5 +15,7 @@ Test for [free#392 增量编译不支持 ButterKnife 8.4.0](https://github.com/a
 
 1. 1-->2过程中, 出现异常:
 
->12-02 14:52:39.069 20669-20669/com.cn.freelinebutterknife A/art: art/runtime/interpreter/interpreter_common.h:146] Check failed: self->IsExceptionPending()
- 12-02 14:52:39.069 20669-20669/com.cn.freelinebutterknife A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 20669 (linebutterknife)
+```
+com.cn.freelinebutterknife A/art: art/runtime/interpreter/interpreter_common.h:146] Check failed: self->IsExceptionPending()
+com.cn.freelinebutterknife A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 20669 (linebutterknife)
+```
